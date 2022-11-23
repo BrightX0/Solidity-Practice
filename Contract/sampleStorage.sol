@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL 3.0
-pragma solidity >= 0.8.17;
+pragma solidity >= 0.8.9;
 
 contract sampleStorage {
     uint storeData;
@@ -9,6 +9,6 @@ contract sampleStorage {
     }
 
     function get() public view returns (uint) {
-        returns storeData;
+        return storeData;
     }
 }

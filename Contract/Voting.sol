@@ -27,5 +27,22 @@ contract Balot {
         for (uint256 i = 0; i < proposalName.length; i++) {
             proposals.push(proposal({name: proposalName[i], voteCount: 0}));
         }
+
+        require(
+            msg.sender == chairPerson,
+            "Only The ChairPerson has the Right To Vote"
+        );
+    }
+
+    function givingRightToVote(address voter) external {
+        require(
+            msg.sender == chairPerson,
+            "Only a ChairPerson can give Right to Vote"
+        );
+
+        require(!voters[voter].voted, "This Voter Already Voted");
+
+        require(voters[voter].weight == 0);
+        voters[voter].weight = 1;
     }
 }

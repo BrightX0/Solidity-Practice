@@ -42,15 +42,15 @@
         "absolutePath": "/Users/brightaugustino/Desktop/My Projects/Solidity-Practice/Contract/sampleStorage.sol",
         "exportedSymbols": {
             "sampleStorage": [
-                438
+                452
             ]
         },
-        "id": 439,
+        "id": 453,
         "license": "GPL 3.0",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 417,
+                "id": 431,
                 "literals": [
                     "solidity",
                     ">=",
@@ -67,9 +67,9 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": true,
-                "id": 438,
+                "id": 452,
                 "linearizedBaseContracts": [
-                    438
+                    452
                 ],
                 "name": "sampleStorage",
                 "nameLocation": "72:13:2",
@@ -77,12 +77,12 @@
                 "nodes": [
                     {
                         "constant": false,
-                        "id": 419,
+                        "id": 433,
                         "mutability": "mutable",
                         "name": "storeData",
                         "nameLocation": "97:9:2",
                         "nodeType": "VariableDeclaration",
-                        "scope": 438,
+                        "scope": 452,
                         "src": "92:14:2",
                         "stateVariable": true,
                         "storageLocation": "default",
@@ -91,7 +91,7 @@
                             "typeString": "uint256"
                         },
                         "typeName": {
-                            "id": 418,
+                            "id": 432,
                             "name": "uint",
                             "nodeType": "ElementaryTypeName",
                             "src": "92:4:2",
@@ -104,23 +104,23 @@
                     },
                     {
                         "body": {
-                            "id": 428,
+                            "id": 442,
                             "nodeType": "Block",
                             "src": "142:30:2",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 426,
+                                        "id": 440,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 424,
+                                            "id": 438,
                                             "name": "storeData",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 419,
+                                            "referencedDeclaration": 433,
                                             "src": "152:9:2",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -130,11 +130,11 @@
                                         "nodeType": "Assignment",
                                         "operator": "=",
                                         "rightHandSide": {
-                                            "id": 425,
+                                            "id": 439,
                                             "name": "x",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 421,
+                                            "referencedDeclaration": 435,
                                             "src": "164:1:2",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -147,14 +147,14 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 427,
+                                    "id": 441,
                                     "nodeType": "ExpressionStatement",
                                     "src": "152:13:2"
                                 }
                             ]
                         },
                         "functionSelector": "60fe47b1",
-                        "id": 429,
+                        "id": 443,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -162,17 +162,17 @@
                         "nameLocation": "122:3:2",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 422,
+                            "id": 436,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 421,
+                                    "id": 435,
                                     "mutability": "mutable",
                                     "name": "x",
                                     "nameLocation": "132:1:2",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 429,
+                                    "scope": 443,
                                     "src": "127:6:2",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -181,7 +181,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 420,
+                                        "id": 434,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "127:4:2",
@@ -196,12 +196,12 @@
                             "src": "126:8:2"
                         },
                         "returnParameters": {
-                            "id": 423,
+                            "id": 437,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "142:0:2"
                         },
-                        "scope": 438,
+                        "scope": 452,
                         "src": "113:59:2",
                         "stateMutability": "nonpayable",
                         "virtual": false,
@@ -209,32 +209,32 @@
                     },
                     {
                         "body": {
-                            "id": 436,
+                            "id": 450,
                             "nodeType": "Block",
                             "src": "220:33:2",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 434,
+                                        "id": 448,
                                         "name": "storeData",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 419,
+                                        "referencedDeclaration": 433,
                                         "src": "237:9:2",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "functionReturnParameters": 433,
-                                    "id": 435,
+                                    "functionReturnParameters": 447,
+                                    "id": 449,
                                     "nodeType": "Return",
                                     "src": "230:16:2"
                                 }
                             ]
                         },
                         "functionSelector": "6d4ce63c",
-                        "id": 437,
+                        "id": 451,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -242,23 +242,23 @@
                         "nameLocation": "187:3:2",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 430,
+                            "id": 444,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "190:2:2"
                         },
                         "returnParameters": {
-                            "id": 433,
+                            "id": 447,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 432,
+                                    "id": 446,
                                     "mutability": "mutable",
                                     "name": "",
                                     "nameLocation": "-1:-1:-1",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 437,
+                                    "scope": 451,
                                     "src": "214:4:2",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -267,7 +267,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 431,
+                                        "id": 445,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "214:4:2",
@@ -281,14 +281,14 @@
                             ],
                             "src": "213:6:2"
                         },
-                        "scope": 438,
+                        "scope": 452,
                         "src": "178:75:2",
                         "stateMutability": "view",
                         "virtual": false,
                         "visibility": "public"
                     }
                 ],
-                "scope": 439,
+                "scope": 453,
                 "src": "63:192:2",
                 "usedErrors": []
             }
